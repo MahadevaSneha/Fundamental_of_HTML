@@ -1,1 +1,1 @@
-# Fundamental_of_HTML
+# Fundamentals_of_HTML
