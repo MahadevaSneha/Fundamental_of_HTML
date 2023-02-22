@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Functions</h1>
+        <h2>Arrow Functions</h2>
+        <p>Exapmle for Arrow Function</p>
+        <p id="a"></p>
+        <p id="b"></p>
+        <p id="c"></p>
+        <p id="d"></p>
+        <p id="e"></p>
+        <p id="f"></p>
+        <script>
+            //syntax for arrow function with parameters
+            let fun=(a,b)=>a+b;
+            document.getElementById("a").innerHTML=fun(22,10);
+            //without arrow function
+            let hello=function(){
+                return "hello World!";
+            }
+            document.getElementById("b").innerHTML=hello();
+            //with arrow function and without parameters
+            let hello1=()=>{
+                return "Hello";
+            }
+            document.getElementById("c").innerHTML=hello1();
+            //arrow function value without return statement
+            let hello3=()=> "Arrow Function Without Return Statement";
+
+            document.getElementById("d").innerHTML=hello3();
+            //arrow function with parameters
+            let h=(v)=>"hello "+(v);
+            document.getElementById("e").innerHTML=h("Universe");
+            
+
+let he = val => "Hello " + val;
+
+document.getElementById("f").innerHTML = he("Universe!");
+        </script>
+    </body>
+</html>
